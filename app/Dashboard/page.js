@@ -87,7 +87,7 @@ export default function page() {
         <Sidebar />
         <div>
           <div className=" text-3xl font-semibold">Sticky Notes</div>
-          <div className=" border border-green-500 p-5 w-[980px] gap-16 grid grid-cols-3 relative">
+          <div className="p-5 w-[980px] gap-16 grid grid-cols-3 relative">
             {data &&
               data.map((item) => {
                 return <Card id={item.id} />;
