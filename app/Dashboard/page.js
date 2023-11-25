@@ -79,7 +79,6 @@ export default function page() {
     } else {
       // Handle the case where the token is not available (e.g., user is not authenticated)
       console.error("No access token available");
-      setError(new Error("No access token available"));
     }
   }, []);
   return (
